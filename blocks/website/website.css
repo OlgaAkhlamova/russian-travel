@@ -1,0 +1,16 @@
+.website {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .website {
+        padding: 0 16px 0;
+    }
+}

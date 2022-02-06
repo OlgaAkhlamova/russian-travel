@@ -1,0 +1,36 @@
+.photo-grid__item {
+    width: 100%;
+    height: 100%;
+}
+
+/*.photo-grid__item:nth-child(4n) {
+    padding-right: 0;
+}
+
+.photo-grid__item:nth-last-child(-n+4) {
+    padding-bottom: 0;
+}*/
+
+@media screen and (min-width: 1440px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 375px) {
+    /* стили для среднего смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}

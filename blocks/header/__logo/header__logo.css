@@ -1,0 +1,12 @@
+.header__logo {
+    min-width: 176px;
+    min-height: 52px;
+    margin: 0;
+}
+
+@media screen and (max-width: 424px) {
+    .header__lang-link {
+        min-width: 142px;
+        min-height: 42px;
+    }
+}

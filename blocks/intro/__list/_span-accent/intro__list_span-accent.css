@@ -1,0 +1,17 @@
+.intro__list_span-accent {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1279px) {}
+
+@media screen and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 424px) {}
