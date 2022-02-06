@@ -24,7 +24,6 @@ html {
 
 body {
     margin: 0;
-    /* background-color: #2A2C2F;*/
 }
 
 /**
@@ -175,7 +174,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: Inter;
+    font-family: inherit;
     /* 1 */
     font-size: 100%;
     /* 1 */
