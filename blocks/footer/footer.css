@@ -3,21 +3,25 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 92px auto 0;
-    padding: 0 48px 24px;
+    margin: 0 auto;
+    padding: 90px 48px 24px;
     color: #ffff;
 }
 
 @media screen and (max-width: 1279px) {}
 
-@media screen and (max-width: 1023px) {}
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding: 86px 24px 24px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, auto);
-        grid-row-gap: 48px;
+        grid-row-gap: 46px;
         margin: 0 auto;
         padding: 64px 16px 24px;
 
@@ -25,4 +29,8 @@
     }
 }
 
-@media screen and (max-width: 424px) {}
+@media screen and (max-width: 424px) {
+    .footer {
+        padding-top: 61px;
+    }
+}

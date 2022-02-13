@@ -1,6 +1,6 @@
 .places {
     width: auto;
-    padding: 92px 148px 0;
+    padding: 90px 148px 0;
     display: grid;
     grid-template-columns: 1fr;
     gap: 80px;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1279px) {
     .places {
-        padding: 92px 48px 0;
+        padding: 90px 48px 0;
     }
 }
 

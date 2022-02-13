@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 34px;
     text-align: right;
     text-decoration-line: none;
     color: #FFFFFF;
@@ -16,6 +16,6 @@
 @media screen and (max-width: 424px) {
     .header__lang-link {
         font-size: 18px;
-        line-height: 20px;
+        padding-right: 14px;
     }
 }

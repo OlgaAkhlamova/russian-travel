@@ -10,8 +10,14 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1023px) {
+    .intro__list {
+        padding-top: 32px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .intro__list {
-        padding-top: 34px;
+        padding-top: 33px;
     }
 }
